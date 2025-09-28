@@ -75,3 +75,7 @@ Finalmente accedemos con un navegor web desde una máquina conectada al servidor
 Despues de rellenar los datos pertinentes presionamos el botón de "Instalar Wordpress" y ya estaria todo listo.
 
 ![InstaladoWordpress.png](SXE_FOTOS/InstaladoWordpress.png)
+
+# Guia usada para esta tarea:
+
+Guia: https://ubuntu.com/tutorials/install-and-configure-wordpress#1-overview
