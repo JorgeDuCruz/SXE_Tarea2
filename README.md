@@ -67,4 +67,11 @@ La contraseña debe ser la misma que la del usuario de la base de datos ya que e
 ![Seguridad.png](SXE_FOTOS/Seguridad.png)
 Para aumentar la seguridad en el archivo de cconfiguración que copiamos antes cambiaremos estas lineas, que por defecto pondra una frase para indicar que escribas ahi con una secuencia aleatoria que la guia que estamos siguiendo nos proporciona.
 
+## Configuracion final de worpress:
+Finalmente accedemos con un navegor web desde una máquina conectada al servidor a la dirección: https://<id_del_sevidor> y si todo salio bien nos aparecera un menú para configurar la página de wordpress.
+![Elegir idioma.png](SXE_FOTOS/Elegir%20idioma.png)
 
+![Instalacion.png](SXE_FOTOS/Instalacion.png)
+Despues de rellenar los datos pertinentes presionamos el botón de "Instalar Wordpress" y ya estaria todo listo.
+
+![InstaladoWordpress.png](SXE_FOTOS/InstaladoWordpress.png)
