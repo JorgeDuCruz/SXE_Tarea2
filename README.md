@@ -63,4 +63,8 @@ sudo -u www-data sed -i 's/password_here/vboxuser/' /srv/www/wordpress/wp-config
 ```
 La contraseña debe ser la misma que la del usuario de la base de datos ya que esas son las credenciales para su conexión.
 
+## Configurar la seguridad
+![Seguridad.png](SXE_FOTOS/Seguridad.png)
+Para aumentar la seguridad en el archivo de cconfiguración que copiamos antes cambiaremos estas lineas, que por defecto pondra una frase para indicar que escribas ahi con una secuencia aleatoria que la guia que estamos siguiendo nos proporciona.
+
 
