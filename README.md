@@ -36,3 +36,15 @@ Con el comando `a2ensite worpress` habilitamos el servicio de wordpress.
 
 ![reloadService.png](SXE_FOTOS/reloadService.png)
 Ahora con el comando `service apache2 reload` recargamos el servicio de apache para aplicar la configuración de wordpress.
+
+
+## Configurar la base de datos:
+
+![ConfiguracionDataBase.png](SXE_FOTOS/ConfiguracionDataBase.png)
+Con `mysql` entramos al gestor de bases de datos donde crearemos la base de datos de wordpress.
+
+1. `create database wordpress` Para crear la base de datos.
+2. `create user wordpress@localhost IDENTIFIED BY 'vboxuser''` Para crear al usuario que manejara la base de datos y que tenga la contraseña 'vboxuser'.
+3. `grant select,insert,update,delete,create,drop,alter on wordpress.* to wordpress@localhost` Para darle todos los permisos necesarios de las tablas de la base wordpres al usuario que creamos antes.
+4. `flush privileges` Para aplicar los cambios en los permisos.
+
