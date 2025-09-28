@@ -26,3 +26,9 @@ Por último con el comando `curl` descargamos desde el enlace de wordpress la ve
 ![ArchivoConfiguracion.png](SXE_FOTOS/ArchivoConfiguracion.png)
 
 Con un comando de editor de texto, en este caso `nano`, creamos el archivo wordpress.conf en la ruta `/etc/apache2/sites-avaliable` y luego copiamos la configuración que aparece en la guía de la izquierda.
+
+
+## Habilitar el servicio:
+![Habilitar.png](SXE_FOTOS/Habilitar.png)
+Con el comando `a2ensite worpress` habilitamos el servicio de wordpress.
+
