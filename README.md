@@ -52,3 +52,15 @@ Con `mysql` entramos al gestor de bases de datos donde crearemos la base de dato
 ![CopiarConfiguracionWP.png](SXE_FOTOS/CopiarConfiguracionWP.png)
 Con el comando `-u www-data` y con `cp` copiamos la configuración de ejemplo en el fichero de configuración del WP. El primer comando es para que el usuario que hace la copia sea el usuario al que le pertenece esos directorios.
 
+Despues de copiar la configuracion debemos agregar estas lineas de comando para establecer la conexion entre wordpress y la base de datos:
+
+```
+sudo -u www-data sed -i 's/database_name_here/wordpress/' /srv/www/wordpress/wp-config.php
+
+sudo -u www-data sed -i 's/username_here/wordpress/' /srv/www/wordpress/wp-config.php
+
+sudo -u www-data sed -i 's/password_here/vboxuser/' /srv/www/wordpress/wp-config.php
+```
+La contraseña debe ser la misma que la del usuario de la base de datos ya que esas son las credenciales para su conexión.
+
+
