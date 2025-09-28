@@ -22,3 +22,7 @@ Una vez creada la carpeta con el comando `chown` le indicamos que la carpeta es 
 Por último con el comando `curl` descargamos desde el enlace de wordpress la version más reciente y agregamos `| tar` en la manera que se indica en la imagen para descomprimir el archivo y con la función `-C` elegir la carpeta creada antes como el lugar donde descomprimirlo.
 
 
+## Configuración:
+![ArchivoConfiguracion.png](SXE_FOTOS/ArchivoConfiguracion.png)
+
+Con un comando de editor de texto, en este caso `nano`, creamos el archivo wordpress.conf en la ruta `/etc/apache2/sites-avaliable` y luego copiamos la configuración que aparece en la guía de la izquierda.
