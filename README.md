@@ -41,7 +41,8 @@ Ahora con el comando `service apache2 reload` recargamos el servicio de apache p
 
 ## Configurar la base de datos:
 
-![ConfiguracionDataBase.png](SXE_FOTOS/ConfiguracionDataBase.png)
+![ConfiguracionDataBase.png](SXE_FOTOS/ConfiguracionDataBase.png) 
+
 Con `mysql` entramos al gestor de bases de datos donde crearemos la base de datos de wordpress.
 
 1. `create database wordpress` Para crear la base de datos.
