@@ -30,6 +30,7 @@ Con un comando de editor de texto, en este caso `nano`, creamos el archivo wordp
 
 ## Habilitar el servicio:
 ![Habilitar.png](SXE_FOTOS/Habilitar.png)
+
 Con el comando `a2ensite worpress` habilitamos el servicio de wordpress.
 
 ## Recargar el servicio apache:
