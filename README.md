@@ -48,3 +48,7 @@ Con `mysql` entramos al gestor de bases de datos donde crearemos la base de dato
 3. `grant select,insert,update,delete,create,drop,alter on wordpress.* to wordpress@localhost` Para darle todos los permisos necesarios de las tablas de la base wordpres al usuario que creamos antes.
 4. `flush privileges` Para aplicar los cambios en los permisos.
 
+## Configuración de WP:
+![CopiarConfiguracionWP.png](SXE_FOTOS/CopiarConfiguracionWP.png)
+Con el comando `-u www-data` y con `cp` copiamos la configuración de ejemplo en el fichero de configuración del WP. El primer comando es para que el usuario que hace la copia sea el usuario al que le pertenece esos directorios.
+
